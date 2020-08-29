@@ -5,15 +5,7 @@ This probelm was given during an interview :
 
 create two entities a dimmer switch and lightbulbs. The dimmer switch controls the amount of watts
 being outputed by the bulb(the brightness of the bulbs). A dimmer switch can adjust the brightness
-levels of multiple lightbulbs
-
-MIN_LEVEL = 5
-MAX_LEVEL = 15
-
-Dimmer | 5W | 10W | 20W
-5      | 0  |  0  |  0
-15     | 5  | 10  | 20
-10     | 2.5|  5  | 10
+levels of multiple lightbulbs.
 
 The dimmer switch has a min of 5 and max of 15. If the dimmer is operating at min level which is 5
 then the bulbs will have 0 output meaning the bulbs are turned off. If the dimmer is operating at
